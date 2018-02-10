@@ -39,6 +39,10 @@ class Song
     else
       self.create_by_name(name)
     end
+
+    def self.alphabetical
+      sel.all.sort
+    end
   end
 
 end
