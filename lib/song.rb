@@ -16,4 +16,11 @@ class Song
     new_song
   end
 
+  def new_by_name(name)
+    new_song = Song.new
+    new_song.name = name
+    self.all<< new_song
+    new_song
+  end
+
 end
