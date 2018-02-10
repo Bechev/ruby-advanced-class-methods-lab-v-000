@@ -16,7 +16,7 @@ class Song
     new_song
   end
 
-  def slef.new_by_name(name)
+  def self.new_by_name(name)
     new_song = Song.new
     new_song.name = name
     self.all<< new_song
